@@ -87,14 +87,14 @@ The design focuses on **practical security controls** and **troubleshooting-read
 | Port security sticky MACs         | ✅     |
 | ACL hit counters                  | ✅     |
 
-Detailed verification outputs are in the `/verification` folder.
+Detailed verification outputs are in the [verification](/verification) folder.
 
 ---
 
 ## How to Use
 
-1. Open [packet-tracer/lab.pkt] in Cisco Packet Tracer
-2. Load the configurations from the [/configs] folder if needed
+1. Open [lab](packet-tracer/lab.pkt) in Cisco Packet Tracer
+2. Load the configurations from the [config/](/configs) folder if needed
 3. PCs obtain addresses via DHCP
 4. Test connectivity and security policies as documented
 
