@@ -1,7 +1,7 @@
 # ACL Verification – Guest Isolation
 
 ## ACL Configuration on R2
-
+```
 R2#show access-lists
 Extended IP access list INTERNAL-TO-GUEST
 10 permit ip 10.10.0.0 0.0.255.255 host 10.20.40.1
@@ -17,7 +17,7 @@ Extended IP access list GUEST-RESTRICT
 30 deny ip 10.20.40.0 0.0.0.255 10.20.0.0 0.0.255.255 (8 match(es))
 40 deny ip 10.20.40.0 0.0.0.255 10.30.0.0 0.0.255.255
 50 permit ip any any
-
+```
 
 ## Interface Application
 
