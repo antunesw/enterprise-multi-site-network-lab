@@ -87,7 +87,7 @@ The design focuses on **practical security controls** and **troubleshooting-read
 | Port security sticky MACs         | ✅     |
 | ACL hit counters                  | ✅     |
 
-Detailed verification outputs are in the [verification](/verification) folder.
+Detailed verification outputs are in the [verification/](/verification) folder.
 
 ---
 
