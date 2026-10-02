@@ -20,7 +20,6 @@ Fa0/1              1              1                0         Restrict
 Fa0/2              1              1                0         Restrict
 Fa0/3              1              1                0         Restrict
 Fa0/4              1              1                0         Restrict
-text
 ```
 
 
