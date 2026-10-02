@@ -20,16 +20,16 @@ Extended IP access list GUEST-RESTRICT
 ```
 
 ## Interface Application
-
+```
 R2#show ip interface gigabitEthernet 0/0.40 | include list
 Outgoing access list is INTERNAL-TO-GUEST
 Inbound access list is GUEST-RESTRICT
-
+```
 
 ## Test Results
 
 ### From Guest PC (10.20.40.21)
-
+```
 C:>ping 10.20.40.1
 Reply from 10.20.40.1: bytes=32 time<1ms TTL=255
 ...
@@ -46,10 +46,10 @@ C:>ping 10.10.10.21
 Reply from 10.20.40.1: Destination host unreachable.
 ...
 Packets: Sent = 4, Received = 0, Lost = 4 (100% loss)
-
+```
 
 ### From Internal PC (10.20.30.21)
-
+```
 C:>ping 10.20.40.1
 Reply from 10.20.40.1: bytes=32 time<1ms TTL=255
 ...
@@ -58,7 +58,7 @@ C:>ping 10.20.40.21
 Reply from 10.20.30.1: Destination host unreachable.
 ...
 Packets: Sent = 4, Received = 0, Lost = 4 (100% loss)
-
+```
 
 ## Summary
 
