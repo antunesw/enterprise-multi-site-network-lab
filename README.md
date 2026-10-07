@@ -86,6 +86,7 @@ The design focuses on **practical security controls** and **troubleshooting-read
 | Internal → Guest gateway allowed  | ✅     |
 | Port security sticky MACs         | ✅     |
 | ACL hit counters                  | ✅     |
+| Dynamic ARP Inspection (DAI)      | ✅     |
 
 Detailed verification outputs are in the [verification/](/verification) folder.
 
