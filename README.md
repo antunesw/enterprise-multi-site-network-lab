@@ -41,11 +41,11 @@ The design focuses on **practical security controls** and **troubleshooting-read
 | Manchester Users  | 10.20.30.0/24    | 10.20.30.1    | Corporate users  |
 | Manchester Guests | 10.20.40.0/24    | 10.20.40.1    | Guest isolation  |
 | Manchester Mgmt   | 10.20.99.0/24    | 10.20.99.1    | Management       |
-| Luton Users      | 10.30.30.0/24    | 10.30.30.1    | Corporate users  |
-| Luton Guests     | 10.30.40.0/24    | 10.30.40.1    | Guest isolation  |
+| Luton Users       | 10.30.30.0/24    | 10.30.30.1    | Corporate users  |
+| Luton Guests      | 10.30.40.0/24    | 10.30.40.1    | Guest isolation  |
 | Point-to-point    | 10.0.12.0/30     | —             | R1 ↔ R2          |
 | Point-to-point    | 10.0.23.0/30     | —             | R2 ↔ R3          |
-| Point-to-point     | 10.0.13.0/30     | —             | R1 ↔ R3          |
+| Point-to-point    | 10.0.13.0/30     | —             | R1 ↔ R3          |
 ---
 
 ## Technologies Used
@@ -95,7 +95,7 @@ Detailed verification outputs are in the [verification/](/verification) folder.
 ## How to Use
 
 1. Open [lab](packet-tracer/enterprise-network.pkt) in Cisco Packet Tracer
-2. Load the configurations from the [config/](/configs) folder if needed
+2. Load the configurations from the [config](/config) folder if needed
 3. PCs obtain addresses via DHCP
 4. Test connectivity and security policies as documented
 
