@@ -7,7 +7,7 @@ Cisco Packet Tracer lab demonstrating a realistic multi-site enterprise network 
 
 ## Overview
 
-This lab simulates a three-site enterprise network (HQ + Manchester + third site) with:
+This lab simulates a three-site enterprise network (HQ + Manchester + Luton) with:
 
 - Multi-VLAN design (Users, Guests, Management)
 - OSPF Area 0 routing between sites
